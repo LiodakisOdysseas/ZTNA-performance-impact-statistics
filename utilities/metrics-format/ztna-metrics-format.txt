@@ -1,0 +1,8 @@
+%output{>>./results/metrics/ztna-metrics.txt}\n
+	           url:  %{url}\n
+	 response_code:  %{http_code}\n\n
+
+            time_total:  %{time_total}s\n
+-----------------------------------------\n\n
+average_download_speed: %{speed_download}\n\n
+===================================================\n
