@@ -45,7 +45,7 @@ echo " non-ZTNA |" | cat - non-ztna-column.txt > temp && mv temp non-ztna-column
 
 
 # Print the results comparisson using the paste command
-paste -d '' ./utilities/labels/curl-variables-labels.txt utilities/labels/statistical-variables-labels.txt ztna-column.txt non-ztna-column.txt
+paste -d '' ./utilities/labels/curl-variables-labels.txt ./utilities/labels/statistical-variables-labels.txt ztna-column.txt non-ztna-column.txt
 
 
 # Remove "column" *.txt extension files to avoid repository polution
